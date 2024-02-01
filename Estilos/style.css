@@ -1,0 +1,158 @@
+body {
+    background-color: #DEE4E9;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+nav {
+    margin: 0 auto;
+    width: 94%;
+   
+    text-align: center; /* Centraliza horizontalmente o texto */
+    height: 80px; /* Ajuste conforme necessário */
+    line-height: 50px; /* Ajuste conforme necessário */
+    
+    
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 auto;
+}
+
+
+nav  li  {
+    margin: 0 auto;
+    display: inline-block;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 30px;
+    
+    
+} 
+
+nav a {
+    margin: 0 auto;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    transition: font-size 0.7s ease;
+   
+}
+
+nav a:hover {
+    color:#982430;
+    font-size: 23px;
+   
+    
+}
+
+hr {
+    width: 80%;
+    height: 2px;
+    background-color: #093C32;
+}
+#apresentar {
+    
+    width: 70%;
+    margin: 0 auto;
+}
+#apresentar h1 {
+    text-align: center;
+    
+}
+#apresentar h2 {
+    text-align: center;
+}
+
+#apresentar p {
+    font-size: 15px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#imagemcorrida {
+    margin-top: 20px;
+    float: right;
+    width: 100%;
+    text-align: center;  
+    
+}
+
+#imagemcorrida img {
+    max-width: 100%;
+    
+    transition: transform 0.8s ease;
+}
+
+#imagemcorrida img:hover {
+    transform: scale(1.3);
+}
+
+#receitas{
+    margin-top: 20px;
+    float: right;
+    width: 100%;
+    text-align: center;  
+}
+#receitas h1 {
+    
+    text-align: center;
+    
+}
+#receitas p{
+
+font-size: 15px;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#imagemReceitas {
+
+    margin-top: 20px;
+    text-align: center; 
+}
+
+#imagemReceitas img {
+    margin-right: 60px; /* Adiciona margem direita para cada imagem */
+}
+
+.containerTreinos {
+
+    background-color: #fff;
+}
+nav a {
+
+    text-decoration: none;
+}
+footer {
+    display: flex;
+    background-color: #093C32;
+    height: 70px;
+    margin: 10px;
+    align-items: center;
+    
+    
+}
+
+footer p {
+
+    color: #fff;
+    margin-left: 20px;
+}
+
+footer button {
+
+    margin: 0px 10px;
+    background-color: #982430;
+    float: right;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: none;
+    }
